@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENUS ACADEMY</title>
+    <link rel="stylesheet" href="henry.css">
+</head>
+<body>
+    <!------Header------->
+    <header>
+        <h1>Venus Academy</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <!------Hero------------->
+    <section class="hero">
+        <h2>Learn Music and Coding </h2>
+        <p>Unlock Your Creative And Tech Skills With Us</p>
+        <button onclick="scrollToSection('courses')">Explore Courses</button>
+    </section>
+
+    <!-----About----->
+    <section id="about">
+        <h2>About Us</h2>
+        <p class="center-text">
+            Venus Academy is where creativity meets technology. We train students in music (musical instruments, vocals, production, etc.) and coding (web development, python etc.)
+        </p>
+    </section>
+    <!------COurses------>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="courses">
+            <div class="course">
+                <img src="Images/Piano.jpg" alt="Music Training">
+                <h3>Music Training</h3>
+                <p>Piano, Vocals, Theory & Music production </p>
+            </div>
+            <div class="course">
+                <img src="Images/Coding.jpg" alt="Coding Classes">
+                <h3>Coding Bootcamp</h3>
+                <p>Web Development, Python, Java and more</p>
+            </div>
+            <div class="course">
+                <img src="Images/Music Production.jpg" alt="Music Production">
+                <h3>Music Production</h3>
+                <p>Learn beat-making, Mixing & Mastering</p>
+            </div>
+        </div>
+    </section>
+    <!-------Contact-------->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p class="center-text">Or reach us on Whatsapp: <a href="https://wa.me/2348127009229" target="_blank">+2348127009229</a></p>
+    </section>
+    <!-------Footer-------->
+    <footer>
+        <p>&copy; 2025 Venus Academy. All Rights Reserved</p>
+    </footer>
+    <script src="henry.js"></script>
+</body>
+</html>
